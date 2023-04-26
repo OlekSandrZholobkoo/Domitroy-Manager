@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20CED924695A17066541EFA2 /* Pods_Domitroy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97021FCA57BCFC34CA84BA1A /* Pods_Domitroy.framework */; };
+		450489962537CE9100F1E07E /* PriceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450489952537CE9100F1E07E /* PriceVC.swift */; };
+		450489982537D68600F1E07E /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450489972537D68600F1E07E /* UserDefaultManager.swift */; };
+		4504AF92253828E1000BD46B /* ConstUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4504AF91253828E1000BD46B /* ConstUtil.swift */; };
+		4527F362251BDC190056F500 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527F361251BDC190056F500 /* StudentModel.swift */; };
+		4527F364251BE08E0056F500 /* PaymentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527F363251BE08E0056F500 /* PaymentModel.swift */; };
+		4527F367251BE1F70056F500 /* SQLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527F366251BE1F70056F500 /* SQLManager.swift */; };
+		4527F36A251BED9D0056F500 /* CustomTF.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4527F369251BED9D0056F500 /* CustomTF.xib */; };
+		4527F36C251BEDBD0056F500 /* CustomTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527F36B251BEDBD0056F500 /* CustomTF.swift */; };
+		4527F36E251BF3460056F500 /* AddStudentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527F36D251BF3460056F500 /* AddStudentVC.swift */; };
+		4527F371251C0B3E0056F500 /* DateUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527F370251C0B3E0056F500 /* DateUtil.swift */; };
+		4527F373251C13E60056F500 /* ValidationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527F372251C13E60056F500 /* ValidationUtil.swift */; };
+		4527F375251C1EE20056F500 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527F374251C1EE10056F500 /* UserCell.swift */; };
+		4527F378251C264B0056F500 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4527F377251C264B0056F500 /* UIViewExtension.swift */; };
+		457BA853251E817300D5E958 /* FloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457BA852251E817300D5E958 /* FloatExtension.swift */; };
+		45AACCEC251B5490006F5620 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AACCEB251B5490006F5620 /* AppDelegate.swift */; };
+		45AACCEE251B5490006F5620 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AACCED251B5490006F5620 /* SceneDelegate.swift */; };
+		45AACCF0251B5490006F5620 /* IntoAppVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AACCEF251B5490006F5620 /* IntoAppVC.swift */; };
+		45AACCF3251B5490006F5620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45AACCF1251B5490006F5620 /* Main.storyboard */; };
+		45AACCF5251B5494006F5620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45AACCF4251B5494006F5620 /* Assets.xcassets */; };
+		45AACCF8251B5494006F5620 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45AACCF6251B5494006F5620 /* LaunchScreen.storyboard */; };
+		45AACD01251B60EC006F5620 /* StudendtVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AACD00251B60EC006F5620 /* StudendtVC.swift */; };
+		45AACD03251B60FA006F5620 /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AACD02251B60FA006F5620 /* PaymentVC.swift */; };
+		45AD1D8C251C87CD00827702 /* PaymentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AD1D8B251C87CD00827702 /* PaymentCell.swift */; };
+		45AD1D90251C926C00827702 /* UserPaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AD1D8F251C926C00827702 /* UserPaymentVC.swift */; };
+		45AD1D92251C9BF300827702 /* AddPaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AD1D91251C9BF300827702 /* AddPaymentVC.swift */; };
+		45AD1D94251CDCD100827702 /* MonthlyPayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AD1D93251CDCD100827702 /* MonthlyPayCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		450489952537CE9100F1E07E /* PriceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceVC.swift; sourceTree = "<group>"; };
+		450489972537D68600F1E07E /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		4504AF91253828E1000BD46B /* ConstUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstUtil.swift; sourceTree = "<group>"; };
+		4527F361251BDC190056F500 /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
+		4527F363251BE08E0056F500 /* PaymentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentModel.swift; sourceTree = "<group>"; };
+		4527F366251BE1F70056F500 /* SQLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLManager.swift; sourceTree = "<group>"; };
+		4527F369251BED9D0056F500 /* CustomTF.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTF.xib; sourceTree = "<group>"; };
+		4527F36B251BEDBD0056F500 /* CustomTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTF.swift; sourceTree = "<group>"; };
+		4527F36D251BF3460056F500 /* AddStudentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddStudentVC.swift; sourceTree = "<group>"; };
+		4527F370251C0B3E0056F500 /* DateUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtil.swift; sourceTree = "<group>"; };
+		4527F372251C13E60056F500 /* ValidationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationUtil.swift; sourceTree = "<group>"; };
+		4527F374251C1EE10056F500 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
+		4527F377251C264B0056F500 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		457BA852251E817300D5E958 /* FloatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatExtension.swift; sourceTree = "<group>"; };
+		45AACCE8251B5490006F5620 /* Academic Studio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Academic Studio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AACCEB251B5490006F5620 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45AACCED251B5490006F5620 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		45AACCEF251B5490006F5620 /* IntoAppVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntoAppVC.swift; sourceTree = "<group>"; };
+		45AACCF2251B5490006F5620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45AACCF4251B5494006F5620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45AACCF7251B5494006F5620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45AACCF9251B5494006F5620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45AACD00251B60EC006F5620 /* StudendtVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudendtVC.swift; sourceTree = "<group>"; };
+		45AACD02251B60FA006F5620 /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		45AD1D8B251C87CD00827702 /* PaymentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCell.swift; sourceTree = "<group>"; };
+		45AD1D8F251C926C00827702 /* UserPaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPaymentVC.swift; sourceTree = "<group>"; };
+		45AD1D91251C9BF300827702 /* AddPaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPaymentVC.swift; sourceTree = "<group>"; };
+		45AD1D93251CDCD100827702 /* MonthlyPayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyPayCell.swift; sourceTree = "<group>"; };
+		5DB824A3BE567BDB42222479 /* Pods-Domitroy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domitroy.debug.xcconfig"; path = "Target Support Files/Pods-Domitroy/Pods-Domitroy.debug.xcconfig"; sourceTree = "<group>"; };
+		97021FCA57BCFC34CA84BA1A /* Pods_Domitroy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Domitroy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8E9D56733DE1134E330693 /* Pods-Domitroy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Domitroy.release.xcconfig"; path = "Target Support Files/Pods-Domitroy/Pods-Domitroy.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45AACCE5251B5490006F5620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20CED924695A17066541EFA2 /* Pods_Domitroy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4527F360251BDB990056F500 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4527F361251BDC190056F500 /* StudentModel.swift */,
+				4527F363251BE08E0056F500 /* PaymentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4527F365251BE1D70056F500 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4527F366251BE1F70056F500 /* SQLManager.swift */,
+				450489972537D68600F1E07E /* UserDefaultManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		4527F368251BED870056F500 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4527F369251BED9D0056F500 /* CustomTF.xib */,
+				4527F36B251BEDBD0056F500 /* CustomTF.swift */,
+				4527F374251C1EE10056F500 /* UserCell.swift */,
+				45AD1D8B251C87CD00827702 /* PaymentCell.swift */,
+				45AD1D93251CDCD100827702 /* MonthlyPayCell.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		4527F36F251C0B300056F500 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				4527F370251C0B3E0056F500 /* DateUtil.swift */,
+				4527F372251C13E60056F500 /* ValidationUtil.swift */,
+				4504AF91253828E1000BD46B /* ConstUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		4527F376251C26340056F500 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4527F377251C264B0056F500 /* UIViewExtension.swift */,
+				457BA852251E817300D5E958 /* FloatExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		45AACCDF251B548F006F5620 = {
+			isa = PBXGroup;
+			children = (
+				45AACCEA251B5490006F5620 /* Domitroy */,
+				45AACCE9251B5490006F5620 /* Products */,
+				900AED48462E21D9B4E9AD07 /* Pods */,
+				C216345BECC460CB0DCDA2AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45AACCE9251B5490006F5620 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45AACCE8251B5490006F5620 /* Academic Studio.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45AACCEA251B5490006F5620 /* Domitroy */ = {
+			isa = PBXGroup;
+			children = (
+				4527F376251C26340056F500 /* Extension */,
+				4527F36F251C0B300056F500 /* Util */,
+				4527F368251BED870056F500 /* UI */,
+				4527F365251BE1D70056F500 /* Manager */,
+				4527F360251BDB990056F500 /* Model */,
+				45AACCFF251B5E39006F5620 /* VC */,
+				45AACCEB251B5490006F5620 /* AppDelegate.swift */,
+				45AACCED251B5490006F5620 /* SceneDelegate.swift */,
+				45AACCF1251B5490006F5620 /* Main.storyboard */,
+				45AACCF4251B5494006F5620 /* Assets.xcassets */,
+				45AACCF6251B5494006F5620 /* LaunchScreen.storyboard */,
+				45AACCF9251B5494006F5620 /* Info.plist */,
+			);
+			path = Domitroy;
+			sourceTree = "<group>";
+		};
+		45AACCFF251B5E39006F5620 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				45AACCEF251B5490006F5620 /* IntoAppVC.swift */,
+				45AACD00251B60EC006F5620 /* StudendtVC.swift */,
+				45AACD02251B60FA006F5620 /* PaymentVC.swift */,
+				4527F36D251BF3460056F500 /* AddStudentVC.swift */,
+				45AD1D8F251C926C00827702 /* UserPaymentVC.swift */,
+				45AD1D91251C9BF300827702 /* AddPaymentVC.swift */,
+				450489952537CE9100F1E07E /* PriceVC.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		900AED48462E21D9B4E9AD07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DB824A3BE567BDB42222479 /* Pods-Domitroy.debug.xcconfig */,
+				DD8E9D56733DE1134E330693 /* Pods-Domitroy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C216345BECC460CB0DCDA2AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97021FCA57BCFC34CA84BA1A /* Pods_Domitroy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45AACCE7251B5490006F5620 /* Domitroy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45AACCFC251B5494006F5620 /* Build configuration list for PBXNativeTarget "Domitroy" */;
+			buildPhases = (
+				70C859EBE1E25F4F6D38FE08 /* [CP] Check Pods Manifest.lock */,
+				45AACCE4251B5490006F5620 /* Sources */,
+				45AACCE5251B5490006F5620 /* Frameworks */,
+				45AACCE6251B5490006F5620 /* Resources */,
+				6101CE43AD371BD9E87345DA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Domitroy;
+			productName = Domitroy;
+			productReference = 45AACCE8251B5490006F5620 /* Academic Studio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45AACCE0251B548F006F5620 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Aira;
+				TargetAttributes = {
+					45AACCE7251B5490006F5620 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 45AACCE3251B548F006F5620 /* Build configuration list for PBXProject "Domitroy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45AACCDF251B548F006F5620;
+			productRefGroup = 45AACCE9251B5490006F5620 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45AACCE7251B5490006F5620 /* Domitroy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45AACCE6251B5490006F5620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AACCF8251B5494006F5620 /* LaunchScreen.storyboard in Resources */,
+				45AACCF5251B5494006F5620 /* Assets.xcassets in Resources */,
+				4527F36A251BED9D0056F500 /* CustomTF.xib in Resources */,
+				45AACCF3251B5490006F5620 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6101CE43AD371BD9E87345DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Domitroy/Pods-Domitroy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Domitroy/Pods-Domitroy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Domitroy/Pods-Domitroy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70C859EBE1E25F4F6D38FE08 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Domitroy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45AACCE4251B5490006F5620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45AD1D8C251C87CD00827702 /* PaymentCell.swift in Sources */,
+				45AACCF0251B5490006F5620 /* IntoAppVC.swift in Sources */,
+				4527F375251C1EE20056F500 /* UserCell.swift in Sources */,
+				4527F371251C0B3E0056F500 /* DateUtil.swift in Sources */,
+				45AD1D90251C926C00827702 /* UserPaymentVC.swift in Sources */,
+				4504AF92253828E1000BD46B /* ConstUtil.swift in Sources */,
+				457BA853251E817300D5E958 /* FloatExtension.swift in Sources */,
+				450489982537D68600F1E07E /* UserDefaultManager.swift in Sources */,
+				4527F362251BDC190056F500 /* StudentModel.swift in Sources */,
+				4527F378251C264B0056F500 /* UIViewExtension.swift in Sources */,
+				45AD1D92251C9BF300827702 /* AddPaymentVC.swift in Sources */,
+				45AACCEC251B5490006F5620 /* AppDelegate.swift in Sources */,
+				4527F373251C13E60056F500 /* ValidationUtil.swift in Sources */,
+				45AD1D94251CDCD100827702 /* MonthlyPayCell.swift in Sources */,
+				450489962537CE9100F1E07E /* PriceVC.swift in Sources */,
+				45AACD01251B60EC006F5620 /* StudendtVC.swift in Sources */,
+				4527F364251BE08E0056F500 /* PaymentModel.swift in Sources */,
+				45AACD03251B60FA006F5620 /* PaymentVC.swift in Sources */,
+				4527F36E251BF3460056F500 /* AddStudentVC.swift in Sources */,
+				4527F367251BE1F70056F500 /* SQLManager.swift in Sources */,
+				45AACCEE251B5490006F5620 /* SceneDelegate.swift in Sources */,
+				4527F36C251BEDBD0056F500 /* CustomTF.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45AACCF1251B5490006F5620 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45AACCF2251B5490006F5620 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45AACCF6251B5494006F5620 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45AACCF7251B5494006F5620 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45AACCFA251B5494006F5620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45AACCFB251B5494006F5620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45AACCFD251B5494006F5620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB824A3BE567BDB42222479 /* Pods-Domitroy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TN569PG595;
+				INFOPLIST_FILE = Domitroy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.laodve.domitroy;
+				PRODUCT_NAME = "Academic Studio";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		45AACCFE251B5494006F5620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD8E9D56733DE1134E330693 /* Pods-Domitroy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TN569PG595;
+				INFOPLIST_FILE = Domitroy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.laodve.domitroy;
+				PRODUCT_NAME = "Academic Studio";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45AACCE3251B548F006F5620 /* Build configuration list for PBXProject "Domitroy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45AACCFA251B5494006F5620 /* Debug */,
+				45AACCFB251B5494006F5620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45AACCFC251B5494006F5620 /* Build configuration list for PBXNativeTarget "Domitroy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45AACCFD251B5494006F5620 /* Debug */,
+				45AACCFE251B5494006F5620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45AACCE0251B548F006F5620 /* Project object */;
+}
